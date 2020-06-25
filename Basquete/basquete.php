@@ -13,7 +13,7 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" href="escolher.css" type="text/css">
+<link rel="stylesheet" href="futebolestilo.css" type="text/css">
 <link rel="stylesheet" href="fontes/font-awesome.min.css">
 
 <script src="https://kit.fontawesome.com/54f9cce8ca.js" crossorigin="anonymous"></script>
@@ -40,28 +40,18 @@
         </nav>
     </header>
 
-<!----------------------------------------Quem Somos------------------------------------------>
-<br>
-    <section class="offer">
-        <div class="container-fluid">
-            <br>
-            <h2 class="text-center "> Bem vindo Jogador </h2>
-        </div>
-        <div>
-            <p class="description"> 
-               <h3 class="text-center ">Qual esporte iremos escolher?</h3>
-            </p>
-        </div>  
-    </section>
+
 <!---------------------------------------------Atletas---+------------------------------------------------->
+
 <section class="testimonials"> 
             <div class="conatiner">
                 <div class="wrap">
                     <div class="box one">
                         <div class="date">
                         </div>
-                        <h1>FUTEBOL</h1>
-                        <div class="text-box">
+                        <h1>CRIAR <br> ARTILHARIA</h1>
+                        <br>
+                         <div class="text-box">
                         <div class="container">
                             <div class="center">
                                 <button class="btn1">
@@ -69,8 +59,9 @@
                                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                                     </svg>
-                                    <a href="../Futebol/futebol.php">Entrar</a>
+                                    <a href="#">Entrar</a>
                                 </button>
+                                
                                 </div>
                             </div>
                         </div>
@@ -79,7 +70,8 @@
                 <div class="box two">
                     <div class="date">
                     </div>
-                    <H1>BASQUETE</H1>
+                    <H1>MINHAS <br> ARTILHARIAS</H1>
+                    <br>
                     <div class="container">
                             <div class="center">
                                 <button class="btn1">
@@ -87,11 +79,28 @@
                                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                                     </svg>
-                                    <a href="../Basquete/basquete.php">Entrar</a>
+                                    <a href="#">Entrar</a>
                                 </button>
                                 </div>
                             </div>
                         </div>
+
+                <div class="box three">
+                    <div class="date">
+                    </div>
+                    <h1>MEU <br> PERFIL</h1>
+                    <<div class="container">
+                            <div class="center">
+                                <button class="btn1">
+                                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                    </svg>
+                                    <a href="#">Entrar</a>
+                                </button>
+                                </div>
+                            </div>
+                    </div>
                 </div>
             </div>
     </section>

@@ -40,37 +40,62 @@
         </nav>
     </header>
 
-<!----------------------------------------Quem Somos------------------------------------------>
-<br>
-    <section class="offer">
-        <div class="container-fluid">
-            <br>
-            <h2 class="text-center "> Futebol... Sábia escolha! </h2>
-        </div>
-        <div>
-            <p class="description"> 
-               <h3 class="text-center ">O que faremos em seguida?</h3>
-            </p>
-        </div>  
-    </section>
+
 <!---------------------------------------------Atletas---+------------------------------------------------->
+
 <section class="testimonials"> 
             <div class="conatiner">
                 <div class="wrap">
                     <div class="box one">
                         <div class="date">
                         </div>
-                        <h1>CRIAR ARTILHARIA</h1>
-                        <div class="text-box">
+                        <h1>CRIAR <br> ARTILHARIA</h1>
+                        <br>
+                         <div class="text-box">
                         <div class="container">
-                            <div class="center">
-                                <button class="btn1">
-                                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                                    </svg>
-                                    <a href="#">Entrar</a>
-                                </button>
+                                <div class="center">
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado">
+                                    Entrar
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="TituloModalCentralizado">Criar Artilharia</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                        <form>
+                                        <div class="form-group row">
+                                            <label for="colFormLabel" class="col-sm-2 col-form-label">Nome</label>
+                                            <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="colFormLabel" placeholder="">
+                                            </div>
+                                        </div>
+                                            <div class="form-row align-items-center">
+                                            <label for="colFormLabel" class="col-sm-2 col-form-label">Privacidade</label>
+                                                <div class="col-auto my-1">
+                                                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Privacidade</label>
+                                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                    <option selected></option>
+                                                    <option value="1">Privada</option>
+                                                    <option value="2">Pública</option>
+                                                </select>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Sair</button>
+                                            <button type="button" class="btn btn-primary">Criar</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +104,8 @@
                 <div class="box two">
                     <div class="date">
                     </div>
-                    <H1>MINHAS ARTILHARIAS</H1>
+                    <H1>MINHAS <br> ARTILHARIAS</H1>
+                    <br>
                     <div class="container">
                             <div class="center">
                                 <button class="btn1">
@@ -96,7 +122,7 @@
                 <div class="box three">
                     <div class="date">
                     </div>
-                    <h1>MEU PERFIL</h1>
+                    <h1>MEU <br> PERFIL</h1>
                     <<div class="container">
                             <div class="center">
                                 <button class="btn1">

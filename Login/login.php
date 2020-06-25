@@ -21,8 +21,9 @@
             <p>Senha</p>
             <input type="password" name="" placeholder="Insira a senha">
             <input type="submit" name="" value="Login">
+            <a href="#">Esqueci a Senha</a>
             |
-            <a href="cadastro.php">Cadastre-se</a>
+            <a href="../Cadastro/cadastro.php">Cadastre-se</a>
         </form>
     </div>
     <!-- Optional JavaScript -->

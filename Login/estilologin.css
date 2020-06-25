@@ -39,6 +39,7 @@ h1 {
     font-size: 25px;
 }
 
+
 .login p {
     margin: 0;
     padding: 0;
@@ -79,13 +80,13 @@ h1 {
 .login a {
     font-weight: bold;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 20px;
-    color: #4b4b4b;
+    color: #fff;
     transition: 0.2s;
 }
 
-.login a:houver {
+.login a:hover {
     transition: 0.2s;
     color: #ff4d4d;
 }
