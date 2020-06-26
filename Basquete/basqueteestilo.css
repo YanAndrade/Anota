@@ -34,22 +34,25 @@ body{ /*tratamento da rolagem do site*/
     padding: 5px 10px;
     border: 2px solid #fff;
     margin-right: 10px; 
-    margin-left: 10px;
+	margin-left: 10px;
+	font-weight: bold;
 }
 
 .header-buttons a{ /*letras dentro do botão*/
     color: white;
-    transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	font-weight: bold;
 }
 
 .header-buttons a.btn-full:hover{ /*tratamento de dentro do botão full*/
-    background-color: #ffdd15;
+    background-color: #fff;
     color: black;
 }
 
 .header-buttons a.btn-half:hover{ /*tratamento de dentro do botão half*/
-    background-color: #ffdd15;
-    color: black;
+    background-color: #fff;
+	color: black;
+	font-weight: bold;
 }
 
 
@@ -86,6 +89,10 @@ a:hover {
     color: #ffdd15;
 }
 
+a#teste{
+	margin-right: 420px;
+}
+
 /***********************
 * FRASE DE INTERAÇÃO  *
 ***********************/
@@ -100,7 +107,7 @@ a:hover {
 ***********************/
 
 .testimonials{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Imagens/ball_football.png);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Imagens/quadrabas.jpg);
     height: 95vh;
     background-position: center;
     background-size: cover;
@@ -206,7 +213,7 @@ body {
 	font-weight: 100;
 }
 .one {
-    background: url(Imagens/tatica.jpeg);
+    background: url(Imagens/tatico.png);
 	background-repeat: no-repeat;
 	background-size: cover;
     background-position: center;
@@ -215,7 +222,7 @@ body {
 }
 
 .two {
-	background: url(Imagens/elenco1.jpg);
+	background: url(Imagens/ElencoBulls3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
     background-position: center;
@@ -224,7 +231,7 @@ body {
 }
 
 .three {
-	background: url(Imagens/Camisa\ Brasil.jpg);
+	background: url(Imagens/uniforme2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
     background-position: center;
@@ -308,7 +315,7 @@ body {
   
   .btn1:hover {
 	transition: 1s ease-in-out;
-	background:  #ffdd15;
+	background:  #FF4000;
 	font-weight: bold;
   }
   
@@ -336,4 +343,83 @@ body {
     text-decoration: none;
     background-color: transparent;
 }
+
+/******************
+* DENTRO DO MODAL *
+*******************/
+.modal-footer{
+	height: 80px;
+}
+
+.form-row>.col, .form-row>[class*=col-]{
+	text-align: center;
+	margin-left: 3px;
+}
+
+.form-control{
+	width: 364px;
+	margin-left: 10px;
+}
+
+.custom-control-label::before, .custom-file-label, .custom-select{
+	width: 360px;
+	margin-left: 10px;
+}
+
+.modal-footer>:not(:last-child){
+	margin-top: 6px;
+	height: 50px;
+	width: 70px;
+}
+.modal-footer>:not(:first-child){
+	margin-top: 6px;
+	height: 50px;
+	width: 70px;
+}
   
+/**************
+* Botao MODAL *
+**************/
+
+.btn-primary{
+	width: 180px;
+	height: 60px;
+	cursor: pointer;
+	background: #000000;
+	border: 1px solid #fff;
+	outline: none;
+	transition: 1s ease-in-out;
+	margin-top: 150px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.btn-primary:hover {
+	transition: 1s ease-in-out;
+	background:  #FF4000;
+	font-weight: bold;
+  }
+  
+    
+  .btn-primary:hover svg {
+	stroke-dashoffset: -480;
+  }
+  
+  .btn-primary span {
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	font-weight: bold;
+  }
+
+  .btn-primary:hover {
+	color: #000000;
+	font-weight: 100;
+	font-weight: bold;
+  }
+
+.a {
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}

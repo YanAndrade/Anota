@@ -41,18 +41,7 @@
     </header>
 
 <!----------------------------------------Quem Somos------------------------------------------>
-<br>
-    <section class="offer">
-        <div class="container-fluid">
-            <br>
-            <h2 class="text-center "> Bem vindo Jogador </h2>
-        </div>
-        <div>
-            <p class="description"> 
-               <h3 class="text-center ">Qual esporte iremos escolher?</h3>
-            </p>
-        </div>  
-    </section>
+
 <!---------------------------------------------Atletas---+------------------------------------------------->
 <section class="testimonials"> 
             <div class="conatiner">
@@ -82,7 +71,7 @@
                     <H1>BASQUETE</H1>
                     <div class="container">
                             <div class="center">
-                                <button class="btn1">
+                                <button class="btn2">
                                     <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
                                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />

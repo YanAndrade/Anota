@@ -39,17 +39,20 @@ body{ /*tratamento da rolagem do site*/
 
 .header-buttons a{ /*letras dentro do botão*/
     color: white;
-    transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	font-weight: bold;
 }
 
 .header-buttons a.btn-full:hover{ /*tratamento de dentro do botão full*/
-    background-color: #ffdd15;
-    color: black;
+    background-color: #fff;
+	color: black;
+	font-weight: bold;
 }
 
 .header-buttons a.btn-half:hover{ /*tratamento de dentro do botão half*/
-    background-color: #ffdd15;
-    color: black;
+    background-color: #fff;
+	color: black;
+	font-weight: bold;
 }
 
 
@@ -86,6 +89,9 @@ a:hover {
     color: #ffdd15;
 }
 
+a#teste{
+	margin-right: 420px;
+}
 /***********************
 * FRASE DE INTERAÇÃO  *
 ***********************/

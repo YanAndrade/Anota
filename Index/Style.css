@@ -33,24 +33,27 @@ body{ /*tratamento da rolagem do site*/
 
 .btn{ /*tratamento do botão*/
     padding: 5px 10px;
-    border: 2px solid #ffdd15;
+    border: 2px solid #fff;
     margin-right: 10px; 
     margin-left: 10px;
 }
 
 .header-buttons a{ /*letras dentro do botão*/
     color: white;
-    transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	font-weight: bold;
 }
 
 .header-buttons a.btn-full:hover{ /*tratamento de dentro do botão full*/
-    background-color: #ffdd15;
-    color: black;
+    background-color: #fff;
+	color: black;
+	font-weight: bold;
 }
 
 .header-buttons a.btn-half:hover{ /*tratamento de dentro do botão half*/
-    background-color: #ffdd15;
-    color: black;
+    background-color: #fff;
+	color: black;
+	font-weight: bold;
 }
 
 /***********************

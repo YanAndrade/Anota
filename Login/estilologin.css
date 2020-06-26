@@ -73,7 +73,7 @@ h1 {
 
 .login input[type="submit"]:houver {
     cursor: pointer;
-    background: #ff4d4d;
+    background: #ffdd15;
     transition: 0.2s;
 }
 
@@ -88,5 +88,5 @@ h1 {
 
 .login a:hover {
     transition: 0.2s;
-    color: #ff4d4d;
+    color: #ffdd15;
 }

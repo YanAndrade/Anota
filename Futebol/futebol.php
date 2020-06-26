@@ -33,6 +33,9 @@
                 </div>
                 <ul class="nav navbar-icones">
                     <div class="header-buttons text-center">
+                        <a id="teste" href="../Escolher/escolher.php" class="btn btn-half">Mudar Esporte</a>
+                    </div>
+                    <div class="header-buttons text-center">
                         <a href="../Cadastro/cadastro.php" class="btn btn-half">Sair</a>
                     </div>
                 </ul>

@@ -13,7 +13,7 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" href="futebolestilo.css" type="text/css">
+<link rel="stylesheet" href="basqueteestilo.css" type="text/css">
 <link rel="stylesheet" href="fontes/font-awesome.min.css">
 
 <script src="https://kit.fontawesome.com/54f9cce8ca.js" crossorigin="anonymous"></script>
@@ -32,6 +32,9 @@
                     <a href="#" class="navbar-brand" id="logo"> <img src="Imagens/Anota (1).png" alt=""></a>
                 </div>
                 <ul class="nav navbar-icones">
+                    <div class="header-buttons text-center">
+                        <a id="teste" href="../Escolher/escolher.php" class="btn btn-half">Mudar Esporte</a>
+                    </div>
                     <div class="header-buttons text-center">
                         <a href="../Cadastro/cadastro.php" class="btn btn-half">Sair</a>
                     </div>
@@ -53,15 +56,49 @@
                         <br>
                          <div class="text-box">
                         <div class="container">
-                            <div class="center">
-                                <button class="btn1">
-                                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                                    </svg>
-                                    <a href="#">Entrar</a>
-                                </button>
-                                
+                                <div class="center">
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado">
+                                    Entrar
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="TituloModalCentralizado">Criar Artilharia</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                        <form>
+                                        <div class="form-group row">
+                                            <label for="colFormLabel" class="col-sm-2 col-form-label">Nome</label>
+                                            <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="colFormLabel" placeholder="">
+                                            </div>
+                                        </div>
+                                            <div class="form-row align-items-center">
+                                            <label for="colFormLabel" class="col-sm-2 col-form-label">Privacidade</label>
+                                                <div class="col-auto my-1">
+                                                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Privacidade</label>
+                                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                    <option selected></option>
+                                                    <option value="1">Privada</option>
+                                                    <option value="2">Pública</option>
+                                                </select>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Sair</button>
+                                            <button type="button" class="btn btn-primary">Criar</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
