@@ -3,7 +3,7 @@
 ***********************/
 body{ /*tratamento da rolagem do site*/
     overflow-y: scroll;
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 /***********************
@@ -13,7 +13,7 @@ body{ /*tratamento da rolagem do site*/
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(Imagens/field_football.png);
     height: 5vh;
     background-position: center;
-    background-size: cover;
+	background-size: cover;
 }
 
 
@@ -69,6 +69,7 @@ a {
     text-decoration: none;
     background-color: transparent;
 }
+
 a:hover {
     color:#000000;
     text-decoration: none;
@@ -88,8 +89,11 @@ a:hover {
     color: #ffdd15;
 }
 
+a#teste{
+	margin-right: 420px;
+}
 /***********************
-* LINHA NO QUEM SOMOS  *
+* FRASE DE INTERAÇÃO  *
 ***********************/
 .offer{
 	width: 100%;
@@ -102,7 +106,7 @@ a:hover {
 ***********************/
 
 .testimonials{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Imagens/torcida.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Imagens/ball_football.png);
     height: 95vh;
     background-position: center;
     background-size: cover;
@@ -151,14 +155,15 @@ body {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: row;
-	        flex-direction: row;
+			flex-direction: row;
+	margin-right: 100px;
 }
 
 .box {
     margin: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
 	width: 300px;
-	height: 490px;
+	height: 300px;
 	text-align: center;
 	border-radius: 3px;
 	-webkit-transition: 200ms ease-in-out;
@@ -174,8 +179,8 @@ body {
 }
 .box h1 {
 	color: #fff;
-	padding: 30px;
-	margin-top: 100px;
+	padding: 10px;
+	margin-top: 62px;
 	text-align: center;
 	font-weight: 100;
 	font-size: 25px;
@@ -184,13 +189,10 @@ body {
 	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
 }
 
-.date h4 {
-	color: #fff;
-	font-weight: 300;
-	text-align: center;
-	letter-spacing: 3px;
-	text-shadow: 0 0 3px rgba(0,0,0,0.9);
+.form-control-file, .form-control-range{
+	margin-top: 100px;
 }
+
 .poster { /*rede social*/
 	width: 200px;
 	height:50px;
@@ -207,17 +209,10 @@ body {
 	text-align: center;
 	font-weight: 100;
 }
-.one {
-    background: url(Imagens/bolafut1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-    background-position: center;
-    margin-right: 30px;
-    margin-left: 30;
-}
+
 
 .two {
-	background: url(Imagens/bolabas2.jpg);
+	background: url(Imagens/elenco1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
     background-position: center;
@@ -227,16 +222,6 @@ body {
 
 
 /* POSTER*/
-.p1 {
-	background: #2b5876;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-gradient(linear, left top, right top, from(#4e4376), to(#2b5876));
-	background: -webkit-linear-gradient(left, #4e4376, #2b5876);
-	background: -o-linear-gradient(left, #4e4376, #2b5876);
-	background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	-webkit-box-shadow: 0 0 20px darkblue;
-	        box-shadow: 0 0 20px darkblue;
-}
 
 .p2 {
 	background: #f857a6;  /* fallback for old browsers */
@@ -249,6 +234,7 @@ body {
 	        box-shadow: 0 0 20px #fa3380;
 }
 
+
 @-webkit-keyframes rotation {
 		from {
 				-webkit-transform: rotate(0deg);
@@ -257,6 +243,7 @@ body {
 				-webkit-transform: rotate(359deg);
 		}
 }
+
 
 /***********************
 *    BOTAO DENTRO      *
@@ -270,7 +257,7 @@ body {
 	border: 1px solid #fff;
 	outline: none;
 	transition: 1s ease-in-out;
-	margin-top: 180px;
+	margin-top: 150px;
 	font-weight: bold;
 	border-radius: 10px;
   }
@@ -294,6 +281,7 @@ body {
 	font-weight: bold;
   }
   
+  
   .btn1:hover svg {
 	stroke-dashoffset: -480;
   }
@@ -311,9 +299,51 @@ body {
 	font-weight: 100;
 	font-weight: bold;
   }
-  
 
-  .btn2 {
+.a {
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/******************
+* DENTRO DO MODAL *
+*******************/
+.modal-footer{
+	height: 80px;
+}
+
+.form-row>.col, .form-row>[class*=col-]{
+	text-align: center;
+	margin-left: 3px;
+}
+
+.form-control{
+	width: 364px;
+	margin-left: 10px;
+}
+
+.custom-control-label::before, .custom-file-label, .custom-select{
+	width: 360px;
+	margin-left: 10px;
+}
+
+.modal-footer>:not(:last-child){
+	margin-top: 6px;
+	height: 50px;
+	width: 70px;
+}
+.modal-footer>:not(:first-child){
+	margin-top: 6px;
+	height: 50px;
+	width: 70px;
+}
+  
+/**************
+* Botao MODAL *
+**************/
+
+.btn-primary{
 	width: 180px;
 	height: 60px;
 	cursor: pointer;
@@ -321,32 +351,38 @@ body {
 	border: 1px solid #fff;
 	outline: none;
 	transition: 1s ease-in-out;
-	margin-top: 180px;
+	margin-top: 150px;
 	font-weight: bold;
 	border-radius: 10px;
-  }
-  
-  .btn2:hover {
+}
+
+.btn-primary:hover {
 	transition: 1s ease-in-out;
-	background:  #ff4000;
+	background:  #ffdd15;
 	font-weight: bold;
   }
   
-  .btn2:hover svg {
+    
+  .btn-primary:hover svg {
 	stroke-dashoffset: -480;
   }
   
-  .btn2 span {
+  .btn-primary span {
 	color: white;
 	font-size: 18px;
 	font-weight: 100;
 	font-weight: bold;
   }
 
-  .btn2 span:hover {
+  .btn-primary:hover {
 	color: #000000;
-	font-size: 18px;
 	font-weight: 100;
 	font-weight: bold;
   }
-  
+
+.a {
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+

@@ -90,7 +90,7 @@ a:hover {
 }
 
 a#teste{
-	margin-right: 420px;
+	margin-right: 0px;
 }
 
 /***********************
@@ -107,7 +107,7 @@ a#teste{
 ***********************/
 
 .testimonials{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Imagens/quadrabas.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Imagens/quadra.jpg);
     height: 95vh;
     background-position: center;
     background-size: cover;

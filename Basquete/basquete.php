@@ -18,7 +18,7 @@
 
 <script src="https://kit.fontawesome.com/54f9cce8ca.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-
+<title>Basquete</title>
 
 </head>
 <body>
@@ -36,7 +36,7 @@
                         <a id="teste" href="../Escolher/escolher.php" class="btn btn-half">Mudar Esporte</a>
                     </div>
                     <div class="header-buttons text-center">
-                        <a href="../Cadastro/cadastro.php" class="btn btn-half">Sair</a>
+                        <a href="../Index/index.php" class="btn btn-half">Sair</a>
                     </div>
                 </ul>
             </div>

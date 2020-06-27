@@ -4,26 +4,26 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="estilologin.css">
+    <link rel="stylesheet" type="text/css" href="recuperarestilo.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Login</title>
+    <title>Recuperar E-mail</title>
   </head>
   <body>
     
     <div class="login">
         <img src="img/user.png" class="usuario" width="100" height="100" alt="">
-        <h1>Login</h1>
+        <h1>Recuperar a Conta</h1>
         <form>
-            <p>Usuário</p>
-            <input type="text" name="" placeholder="Insira o nome">
-            <p>Senha</p>
-            <input type="password" name="" placeholder="Insira a senha">
-            <input type="submit" name="" value="Login">
-            <a href="../Recuperar/recuperar.php">Esqueci a Senha</a>
-            |
-            <a href="../Cadastro/cadastro.php">Cadastre-se</a>
+            <p>E-mail</p>
+            <input type="text" name="" placeholder="Digite o seu e-mail">
+            <input type="submit" name="" value="Enviar">
+            
+            <div class="header-buttons text-center">
+              <a href="../Login/login.php" class="btn btn-full">Voltar</a>
+              <a href="" class="btn btn-full">Enviar</a>
+            </div>
         </form>
     </div>
     <!-- Optional JavaScript -->
